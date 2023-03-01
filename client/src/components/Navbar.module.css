@@ -1,0 +1,53 @@
+.nb{
+    background-color: lightgreen;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nb h1{
+    margin: 10px;
+    font-size: 44px;
+    min-width: 210px;
+    cursor: pointer;
+}
+
+.nb h4{
+    margin-top: 25px;;
+}
+
+.nb div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nb div button{
+    height: 32px;
+    min-width: 100px;
+    background-color: mediumseagreen ;
+    margin: 7px;
+    font-weight: bold;
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 2px 10px;
+    box-shadow: 2px 2px black;
+}
+
+.nb div button:hover{
+    background-color: #f9b2d6
+}
+
+.nb div p{
+    margin: 7px;
+    font-size: 17px;
+    padding: 4px;
+}
+
+.adminbtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,293 @@
+
+body{
+  background-color: #ccf4cc;
+}
+
+.headerList{
+
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  background-color:lightgreen;
+  margin-top: 0px ;
+  height: 40px;
+  width: auto;
+  border-top: rgb(12, 143, 93) solid 1px;
+  padding-top: 10px;
+}
+.header{
+  background-color: aqua;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.headerListSelectors{
+  height: 30px;
+  /* width: 200px; */
+  width: auto;
+  padding: 2px;
+  background-color: lightgreen;
+  border-style: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.mainBody{
+  background-color: rgb(139, 182, 195);
+  height: auto;
+}
+
+.searchBar{
+  background-color: lightgreen;
+  margin-left: auto ;
+  width: 200px;
+  height: 25px;
+  margin-right: 50px;
+  border: 1px solid black;
+  padding: 3px;
+  font-size: 20px;
+}
+.searchBar:hover{
+  background-color: #82fe7a
+}
+
+
+.cardsContainer{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+
+.cards{
+  border-radius: 15px;
+  margin: 2px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #030202;
+  width: 300px;
+  height: 400px;
+  background-color: #ED91BF
+}
+
+.cardActions{
+  justify-content: space-evenly;
+  width: 150px;
+  height: auto;
+  padding: 10px;
+  text-align: start;
+  word-break:break-all;
+}
+
+.cardActionsSecondary{
+  width: 90px;
+}
+
+.cardInfo{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-height: 194px;
+}
+
+.cardsTitles{
+  padding: 4px;
+  margin: 1px;
+  word-break: normal;
+
+}
+
+.cardsP{
+  margin-bottom: 5px ;
+  font-weight: 500;
+}
+
+.cardDetailBtn{
+  background-color: #62F593;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  font-size: medium;
+  font-weight: 600;
+  margin-top: 15px;
+  box-shadow: 0 3px 7px -2px ;
+  cursor: pointer;
+}
+
+.mapImg{
+  border-radius: 5%;
+  height: 90px;
+  width: 90px;
+  min-width: 100%;
+  min-height: 50%;
+}
+.mapTags{
+  font-weight: bold;
+}
+
+.mapBtn{
+  display: inline-block;
+  width:25px;
+  height:25px;
+  background-color: #62F593;
+  cursor: pointer;
+
+}
+
+.mapStock{
+  display: inline-block;
+  margin : 5px 5px 5px 5px;
+  font-size: 17px;
+}
+
+.mainFotter{
+  background-color:  #90ee90;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  font-weight: bolder;
+}
+
+.productList{
+  justify-content: flex-start;
+  list-style-type: none;
+  margin-right: 15px;
+  margin: 10px ;
+  font-size: 25px;
+}
+
+.addProductsForm{
+  text-align: center;
+  margin: 5px;
+  display: flex;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #030202;
+  background-color: rgb(208, 238, 230);
+}
+
+.productHeader{
+  border-style: solid;
+  border-width: 3px;
+  border-color: #030202;
+  text-align: left;
+  margin-left: 90px;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  height: fit-content;
+  font-weight: bold;
+}
+
+.productBtn{
+  height: 32px;
+  width: 100%;
+  background-color: mediumseagreen;
+  margin: 7px;
+  font-weight: bold;
+  border: 2px solid black;
+  font-size: 15px;
+  padding: 2px 10px;
+  box-shadow: 2px 2px black;
+}
+
+.itemDetailContainer{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 20px;
+  width: fit-content;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+.imgDetailContainer{
+  justify-content: space-evenly;
+  padding: 20px;
+  width: auto;
+  margin: 10px 10px 10px 0px;
+}
+
+.dataDetailContainer{
+  display: inline-block;
+  height: fit-content;
+}
+
+.btnDetail{
+  text-align: right;
+  display: block;
+  height: fit-content;
+  
+}
+
+.soloImg{
+  border-radius: 5%;
+  height: 300px;
+  width: 400px;
+}
+
+.tagsSoloDetail{
+  font-weight: bold;
+  font-size: 20px;
+  word-break: break-all;
+}
+.addNavigationBtn{
+  background-color: #62F593;
+  border-radius: 5px;
+  width: 95px;
+  height: 40px;
+  font-size: medium;
+  font-weight: 600;
+  margin: 10px;
+  margin-top: auto;
+  box-shadow: 0 3px 7px -2px ;
+  cursor: pointer;
+}
+.addNavigationBtn:hover{
+  background-color: #f9b2d6
+}
+
+.updateForm{
+  width: 300px;
+  margin-left: 7px;
+  border-left: solid 2px #8C1852 ;
+}
+.updateHeader{
+  text-align: center;
+  margin : -5px 5px 0px 5px;
+}
+.globalDivVentas{
+  margin: 20px;
+}
+
+.divTableContainer{
+  width: 900px;
+
+}
+.ventasContainerTable{
+  border-bottom: solid;
+  width: 900px;
+}
+
+.tableVentasHeaders{
+  background-color: #52A152;
+  font-size: 30px;
+}
+
+.containTables{
+  background-color: #D9CED3 ;
+  margin: 10px;
+  
+}
+
+.tableRows{
+  border-style: solid;
+  font-weight: bolder;
+
+}
